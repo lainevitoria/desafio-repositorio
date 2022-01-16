@@ -1,0 +1,52 @@
+!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conheca Rick and Morty</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" , defer></script>
+</head>
+
+<body>
+    <main>
+        <section>
+            <img id="ima" alt="Imagem do Rick fazendo careta na cara do Morty"
+                src="https://images.tcdn.com.br/img/img_prod/697730/adesivo_lateral_vidro_caminhao_carro_decorativo_rick_and_morty_1147486360_1_20201210150106.jpg">
+            <ul id="detalhes-container">
+                <li>Nome:<p id="nomea"></p>
+                </li>
+                <li>Especie:<p id="especiea"></p>
+                </li>
+                <li>Este vivo?<p id="statusa"></p>
+                </li>
+            </ul>
+            <img id="imb" alt="Imagem do Rick and Morty chegando em um novo planeta"
+                src="https://static.wikia.nocookie.net/geekpediabr/images/a/a4/8641CD99-093F-4F85-9A26-388494EB3A7F.jpeg/revision/latest?cb=20190722190346">
+            <ul id="detalhes-container">
+                <li>Nome:<p id="nomeb"></p>
+                </li>
+                <li>Especie:<p id="especieb"></p>
+                </li>
+                <li>Esta vivo?<p id="statusb"></p>
+                </li>
+            </ul>
+            <img id="imc" alt="Imagem do Rick and Morty dentro de um carro"
+                src="https://observatoriodocinema.uol.com.br/wp-content/uploads/2021/07/rick-and-morty-1200x900-3.jpg">
+            <ul id="detalhes-container">
+                <li>Nome:<p id="nomec"></p>
+                </li>
+                <li>Especie:<p id="especiec"></p>
+                </li>
+                <li>Esta vivo?<p id="statusc"></p>
+                </li>
+            </ul>
+            <button>Conheca tres personagens Rick and Morty</button>
+        </section>
+    </main>
+</body>
+
+</html>
